@@ -1,0 +1,9 @@
+/target
+
+# Lokale Konfiguration ignorieren (nur config.toml.example committen)
+config.toml
+
+# Falls du später mal ein .env oder IDE-Ordner nutzt:
+.env
+.vscode/
+.idea/

@@ -1,0 +1,33 @@
+# Wayland Launcher - Example Configuration
+# Copy this file to ~/.config/launcher/config.toml to customize your launcher.
+# All settings below show their default values (clean monotone white).
+# To customize a setting, uncomment the line (remove the leading '#') and change the value.
+
+# Primary/Accent color used for selection highlight, borders, and carets (supports HEX or RGB/RGBA)
+# accent_color = "#ffffff"       # Standard monotone white
+# accent_color = "#3b82f6"       # Example: Vibrant Blue Accent
+# accent_color = "#10b981"       # Example: Emerald Green Accent
+
+# Window background color (supports HEX or RGB/RGBA)
+# background_color = "rgb(22, 22, 22)"
+# background_color = "#1a1a1a"   # Example: Very dark gray
+
+# Window background opacity (0.0 to 1.0)
+# background_opacity = 0.9       # Standard 90% opacity
+# background_opacity = 0.7       # Example: 70% opacity for more transparency
+
+# Border radii (in pixels)
+# border_radius_box = 24         # Main window border radius
+# border_radius_entry = 14       # Search input border radius
+# border_radius_row = 12         # List item border radius
+
+# Box shadow opacity (0.0 to 1.0)
+# shadow_opacity = 0.6           # Standard 60% shadow depth
+# shadow_opacity = 0.0           # Example: Disable shadow completely
+
+# Request compositor blur rule matching namespace "launcher" (true or false)
+# (For Hyprland, add: layerrule = blur, launcher)
+# blur = true
+
+# Custom font family (set to a string like "Outfit" or "Inter")
+# font_family = "Outfit"
